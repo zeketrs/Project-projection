@@ -17,6 +17,13 @@
     </ul>
     <p>Upon deployment, this page could be populated with modular components.</p>
     <p>Those templates could house the latest information about new cards and events.</p>
+
+    <blockquote>
+      Created by Dalten Hansen-White, Ezekiel Torres and Tristin Murray
+      CIS 235 team project.
+      Nontrivial code retooled from Vuemastery.com
+      (services page running on axios, store system running on pinia)
+    </blockquote>
   </div>
 </template>
 <style scoped>
