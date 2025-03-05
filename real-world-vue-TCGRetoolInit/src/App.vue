@@ -35,7 +35,7 @@ nav ul li a {
   text-decoration: none;
 }
 nav a.router-link-exact-active {
-  color: #42b983;
+  color:darkolivegreen;
   text-decoration: none;
 }
 </style>
