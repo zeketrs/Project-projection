@@ -1,0 +1,59 @@
+@import './base.css';
+/* nav tag layout css credited to vueMastery courses */
+
+#layout {
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  width: 100%;
+  color: #aac9e7;
+}
+ul {
+  list-style-type: none;
+}
+h2 {
+  font-size: 20px;
+}
+nav {
+  padding: 20px;
+  background: linear-gradient(-90deg, #84cf6a, #16c0b0);
+  height: 60px;
+  margin-bottom: 25px;
+  -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
+}
+
+.grow-in-enter-active,
+.grow-in-leave-active {
+  transition: 0.5s ease-in-out;
+}
+.grow-in-enter-from,
+.grow-in-leave-to {
+  opacity: 0;
+  transform: scale(80%);
+}
+
+.display-card img {
+  padding: 20px;
+  width: flex;
+  height: auto;
+  border: 1px solid #aac9e7;
+  margin: 18px;
+}
+.display-card:hover {
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
+}
+.card-details-link {
+  color: #aac9e7;
+}
+.image-container {
+  text-align: center;
+}
+.loading {
+  margin-top: 30px;
+  height: 250px;
+  line-height: 150px;
+  text-align: center;
+}
